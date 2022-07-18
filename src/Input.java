@@ -3,7 +3,7 @@ import java.util.Scanner;
 // java.lang  -> String ... default import
 // java.util
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Input {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class Input {
         
 
         System.out.println(str + s);
-        
+
         System.out.println("Введите данные: ");
         String string = scan.nextLine();
         System.out.println("Ваши данные: " + string);
