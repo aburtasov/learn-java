@@ -15,6 +15,13 @@ public class ClassesAndObjects {
      person1.sayHello();
      int years1 = person1.calculateYearsToRetirement();
      System.out.println(years1);
+
+     person1.setName("Vasya");
+     person1.speak();
+
+     String s1 = "Vova";
+     person2.setName(s1);
+     person2.speak();
   }
 }  // публичный класс может быть только один
 /*class test {
@@ -42,5 +49,9 @@ class Person {
     int calculateYearsToRetirement() {
       int years = 65 - age;
       return years;
+    }
+
+    void setName(String username) {  // параметров может быть сколько угодно
+         name = username;
     }
 }
