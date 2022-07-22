@@ -16,7 +16,7 @@ class Person {
 
    public void setName(String username) {  // сеттер
     if (username.isEmpty()) {
-        System.out.println("Пустое имя!")
+        System.out.println("Пустое имя!");
     } else {
         name = username;
     }
@@ -28,7 +28,7 @@ class Person {
 
    public void setAge(int userage) {  // сеттер
     if (userage < 0 ) {
-        System.out.println("Отрицательный возраст!")
+        System.out.println("Отрицательный возраст!");
     } else {
         age = userage;
     }

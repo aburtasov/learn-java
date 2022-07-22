@@ -1,4 +1,6 @@
-public class StringBuilder {
+import java.lang.StringBuilder;
+
+public class StringBuild {
      public static void main(String[] args) {
         String s1 = "Hello"; // объект класса String , не изменится до конца программы
         s1.toUpperCase(); // не сработает, тк строка не меняется
@@ -16,7 +18,8 @@ public class StringBuilder {
 
         System.out.println(strAll);
 
-        StringBuilder sb = new.StringBuilder("Hello"); // from java.lang
+        
+        StringBuilder sb = new StringBuilder("Hello"); // from java.lang
         System.out.println(sb.toString());
 
         sb.append("World!");

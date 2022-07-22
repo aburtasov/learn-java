@@ -1,4 +1,4 @@
-public class This {
+public class Constructor {
     public static void main(String[] args) {
       Human human1 = new Human("Bob",30);
       human1.setName("Tom");
@@ -17,8 +17,8 @@ public class This {
 
       Math.pow(2,4); // класс Math , коллекция статических методов. Без создания конкретного объекта
 
-      human1.printCountHuman();
-      human2.printCountHuman(); // общая переменная countHuman
+      
+      Human.printCountHuman(); // общая переменная countHuman
 
 
      //  human2.description = "Changing"; // не имеет смысла
