@@ -19,7 +19,7 @@ public class Modificators {
     // технический метод для внутренних нужд
 
     Person person1 = new Person();
-    person1.name = "Bob";
+    //person1.name = "Bob";
 }   
 
 // класс либо public, либо default
@@ -27,5 +27,5 @@ public class Modificators {
 // default class - вспомога
 
 class Test2 {
-
+    
 }
