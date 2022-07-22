@@ -1,4 +1,4 @@
-package interfaces;
+package Interfaces;
 
 public class Person implements Info{
     public String name;
